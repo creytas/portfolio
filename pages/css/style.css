@@ -1,0 +1,366 @@
+@font-face {
+  font-family: "Sabastian";
+  src: url("../../font/Sabastian.ttf") format("ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Open Sans", "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.container--background {
+  background-color: #345298;
+}
+.container__heading {
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 0px solid black;
+  width: 31.8%;
+  padding: 2% 1%;
+}
+.container__heading > p {
+  margin: 38px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #3b5cab;
+  text-shadow: 0px 0px 0.5px black;
+}
+.container__body {
+  border: 0px solid black;
+  position: absolute;
+  right: 0;
+  width: 66.1%;
+  padding: 0.7%;
+}
+.container__body > div {
+  width: 100%;
+  padding: 180px 0px;
+  display: flex;
+  flex-direction: column;
+  border: 0px solid blue;
+}
+
+.heading__logo img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+.heading__title {
+  font-family: "Waiting for the Sunrise", cursive;
+  font-size: 40px;
+  text-shadow: 0px 0px 2px #2f80ed;
+  text-align: center;
+}
+.heading__icons {
+  width: 35px;
+  height: 35px;
+}
+.heading__info {
+  width: 100%;
+  border: 0px solid blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0% 0.5% 10% 0%;
+}
+.heading__info .info__user-picture {
+  width: 130px;
+  object-fit: cover;
+  align-items: center;
+  border: 0px solid red;
+}
+.heading__info .info__user-detail {
+  width: 64%;
+  display: flex;
+  flex-direction: column;
+  border: 0px solid red;
+}
+.heading__info .info__user-detail .detail__items {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 3%;
+}
+.heading__info .info__user-detail .detail__items a {
+  display: flex;
+  text-decoration: none;
+}
+.heading__info .info__user-detail .detail__items p {
+  margin-left: 2.5%;
+}
+.heading__info .info__user-social {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  border: 0px solid red;
+  margin: 5% 0% 0% 25%;
+}
+.heading__menu {
+  border: 0px solid blue;
+  border-style: none;
+  width: 100%;
+}
+
+.menu__items {
+  width: 100%;
+  border: 0px solid red;
+}
+.menu__items li {
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  border: 0px solid yellow;
+  list-style: none;
+  margin-bottom: 20px;
+}
+.menu__items a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.menu__items a:hover, .menu__items a:active {
+  border-left: 3px solid #345298;
+  background-color: #d3e1e2;
+  color: #3b5cab;
+}
+.menu__items img {
+  margin: 5px 20px 5px;
+}
+
+.background {
+  background-color: #d3e1e2;
+}
+
+.technologies {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.technologies div {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  top: 395px;
+  left: 250px;
+  animation: animate 20s linear infinite;
+}
+.technologies div img {
+  width: 100%;
+}
+.technologies div:nth-child(1) {
+  left: 76%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+.technologies div:nth-child(2) {
+  left: 12%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 2s;
+  animation-duration: 8s;
+}
+.technologies div:nth-child(3) {
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 4s;
+  animation-duration: 7s;
+}
+.technologies div:nth-child(4) {
+  left: 30%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 5s;
+  animation-duration: 6s;
+}
+.technologies div:nth-child(5) {
+  left: 20%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 5.5s;
+  animation-duration: 7s;
+}
+.technologies div:nth-child(6) {
+  left: 40%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 5.5s;
+  animation-duration: 7s;
+}
+.technologies div:nth-child(7) {
+  left: 5%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 5.5s;
+  animation-duration: 7s;
+}
+.technologies div:nth-child(8) {
+  left: 55%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 5.5s;
+  animation-duration: 7s;
+}
+.technologies div:nth-child(9) {
+  left: 63%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 5.5s;
+  animation-duration: 7s;
+}
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-400px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.btn--background {
+  background-color: #3b5cab;
+  font-weight: bold;
+  color: #d3e1e2;
+}
+.btn--background a {
+  color: #d3e1e2;
+}
+.btn--background a:hover {
+  color: #3b5cab;
+}
+
+.font {
+  margin: 1%;
+}
+.font--color, .font--color a {
+  color: #d3e1e2;
+}
+
+.projects {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projects-card {
+  box-shadow: 0px 0px 2px #345298;
+  background-color: #a0b3de;
+  width: 100%;
+  margin: 1%;
+  padding: 0.5%;
+  display: flex;
+  justify-content: space-between;
+}
+.projects__detail {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.projects__descriptif {
+  width: 100%;
+  padding: 0% 0% 0% 0.5%;
+  display: flex;
+  flex-direction: column;
+}
+.projects__descriptif h3 {
+  width: 100%;
+  text-align: center;
+  border: 0.5px solid #3b5cab;
+  background-color: #3b5cab;
+  color: #d3e1e2;
+}
+.projects__descriptif p {
+  word-wrap: everywhere;
+  width: 100%;
+  border: 0.5px solid #3b5cab;
+}
+.projects__techno {
+  width: 100%;
+  padding: 1% 0%;
+  border: 0.5px solid #3b5cab;
+  border-top: none;
+  background-color: #438eef;
+  display: flex;
+  align-items: center;
+}
+
+.body__icons {
+  width: 80px;
+  height: 80px;
+  margin: 1%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.body__img-projects {
+  width: 500px;
+  object-fit: cover;
+}
+
+#index {
+  background-color: #345298;
+}
+
+#mysql {
+  width: 100px;
+  height: 100px;
+  margin: 1%;
+}
+
+#json {
+  width: 200px;
+  margin: 1%;
+}
+#json__projects {
+  width: 60px;
+  margin: 1%;
+}
+
+.ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 40px;
+}
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.ml9 .letters {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+/*# sourceMappingURL=style.sass.map */
+
+/*# sourceMappingURL=style.css.map */
