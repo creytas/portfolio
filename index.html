@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Randy BUHENDWA - Portfolio</title>
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
     <link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,600&display=swap" rel="stylesheet">
@@ -18,10 +18,10 @@
 
 <body>
     <main class='container'>
-        <header class="container__heading container--background">
-            <!-- <div class="heading__logo">
-                <a href="#index"><img src="img/logo.png" alt="The Randy BUHENDWA's 'R.B' Logo "></a>
-            </div> -->
+        <header class="container__heading container__background container__background--color">
+            <div class="heading__logo">
+                <a href="#index"><img src="img/logo.svg" alt="The Randy BUHENDWA's 'R.B' Logo "></a>
+            </div>
             <div class="heading__info">
                 <div>
                     <img src="img/infos/randy_work.jpg" alt="Randy's Picture" class="info__user-picture">
@@ -40,7 +40,12 @@
                             <img src="img/1904660-email-envelope-letter-mail-message-post-send_122510.svg" alt="portfolio's owner mail" class="heading__icons">
                             <p>mon_mail@mailbox.com</p>
                         </a>
-
+                    </div>
+                    <div class="detail__items">
+                        <a href="#" target="_blank">
+                            <img src="img/file_pdf_download_icon-icons.com_68954.svg" alt="portfolio's owner resume" class="heading__icons">
+                            <p>My curriculum</p>
+                        </a>
                     </div>
                 </div>
                 <div class="info__user-social">
@@ -66,7 +71,7 @@
             <p>© Imagin'Soft 2021</p>
         </header>
         <section class='container__body background'>
-            <div id='index'>
+            <div id='index' class="container__background--color">
                 <div class="technologies">
                     <div><img src="img/devicon_plain_wordmark_logo_icon_146562.svg" alt="software developpement" class="body__icons"></div>
                     <div><img src="img/html_original_wordmark_logo_icon_146478.svg" alt=" html 5 logo" class="body__icons"></div>
@@ -77,6 +82,8 @@
                     <div><img src="img/mysql_original_wordmark_logo_icon_146417.svg" alt=" mysql logo" id="mysql" class="body__icons"></div>
                     <div><img src="img/file_type_git_icon_130581.svg" alt=" git logo" class="body__icons"></div>
                     <div><img src="img/ubuntu_plain_logo_icon_146631.svg" alt=" ubuntu linux os logo" class="body__icons"></div>
+                    <div><img src="img/ux.png" alt=" user experience logo" class="body__icons"></div>
+                    <div><img src="img/computerscreen_122153.png" alt=" user experience logo" class="body__icons"></div>
                 </div>
                 <h1 class="heading__title">
                     Hello World !!! <br><strong class="font--color">I'm Randy BUHENDWA...</strong><br> <strong class="font--color">I'm a Front-End Web Developer </strong><br>Welcome to <strong class="font--color">my PORTFOLIO</strong>, and let's take
@@ -85,9 +92,20 @@
             </div>
             <div id="project">
                 <h2 class="heading__title">Projects</h2>
-                <div class="heading__img"></div>
+                <div class="heading__img">
+                    <img src="img/infos/title_project1.png" alt="a web developer">
+                </div>
                 <div>
-                    <p>la qualite, le gout du travail bien fait, etant prioritaire pour moi, voici les quelques projets sur lesquels j’ai eu a travailler...</p>
+                    <p>An IT project that can be the creation of new software, the creation of a new digital space, the creation of a new IT infrastructure, the creation of a support service, or even a major development software, the integration of existing
+                        software, the major evolution of an infrastructure ... thanks to my time at Kinshasa Digital Academy, I had the opportunity to work on all kinds of projects </p>
+                    <div class="heading__img">
+                        <img src="img/infos/title_project.png" alt="a web developer">
+                    </div>
+                    <p>the most used methodology in the projects in which I had to participate, was the agile methodology. it offers as an advantage, flexibility, collaboration and communication internally, and with the customer </p>
+                    <div class="heading__img">
+                        <img src="img/infos/title_project2.png" alt="a web developer">
+                    </div>
+                    <p>the quality, the taste of a job well done, being a priority for me, here are the few projects on which I had to work ... </p>
                     <div class="projects">
                         <div class="projects-card">
                             <img src="img/infos/project 1.png" alt="projet sur la stylisation d'une page statique sur l'histoire du web" class="body__img-projects">
@@ -95,12 +113,23 @@
                             <div class="projects__descriptif">
                                 <h3>HISTOIRE D'INTERNET</h3>
                                 <p>
-                                    projet sur la stylisation d'une page statique sur l'histoire du web
+                                    <h5><img src="img/tasks_list_checklist_icon_132920.svg" alt="details des taches a realiser" class="heading__icons">Context of the project</h5>
+                                    project on the stylization of a static page on the history of the web <br> We had to style the two HTML pages that we had created in the project "Structurer un contenu HTML" using CSS version 3; according to the model
+                                    provided by the graphic designer.
+                                </p>
+                                <p>
+                                    <h5><img src="img/clock_time_icon_132960.svg" alt="durée du projet" class="heading__icons">Project duration</h5>
+                                    the project on the stylization of a static page was completed in 4 hours
                                 </p>
                                 <div class="projects__techno">
                                     <img src="img/html_original_wordmark_logo_icon_146478.svg" alt="html 5" class="heading__icons">
                                     <img src="img/css_original_wordmark_logo_icon_146576.svg" alt="css 3" class="heading__icons">
                                     <img src="img/file_type_git_icon_130581.svg" alt="git versioning" class="heading__icons">
+                                    <img src="img/computerscreen_122153.svg" alt="computer only" class="heading__icons">
+                                </div>
+                                <div class="options">
+                                    <a href="https://creytas.github.io/KDA_TP2" target="_blank"><img src="img/4552604-globe-internet-sphere-web_121385.svg" title="voir la page" alt="voir la page" class="heading__icons"></a>
+                                    <a href="https://github.com/creytas/KDA_TP2/blob/master/index.html" target="_blank"><img src="img/code-optimization_icon-icons.com_53810.svg" title="voir le code" alt="voir le code" class="heading__icons"></a>
                                 </div>
                             </div>
                         </div>
@@ -109,12 +138,22 @@
                             <div class="projects__descriptif">
                                 <h3>FORMULAIRE D'ENREGISTREMENT</h3>
                                 <p>
-                                    projet sur la stylisation d'une page statique sur l'histoire du web
+                                    <h5><img src="img/tasks_list_checklist_icon_132920.svg" alt="details des taches a realiser" class="heading__icons">Context of the project</h5>
+                                    We had to create a registration form in a site to offer a registration service for all Freelance developers. <br> For that, we had to create user account forms through an account creation form.
+                                </p>
+                                <p>
+                                    <h5><img src="img/clock_time_icon_132960.svg" alt="durée du projet" class="heading__icons">Project duration</h5>
+                                    the project on the stylization of a static page was completed in 6 hours
                                 </p>
                                 <div class="projects__techno">
                                     <img src="img/html_original_wordmark_logo_icon_146478.svg" alt="html 5" class="heading__icons">
                                     <img src="img/css_original_wordmark_logo_icon_146576.svg" alt="css 3" class="heading__icons">
                                     <img src="img/file_type_git_icon_130581.svg" alt="git versioning" class="heading__icons">
+                                    <img src="img/computerscreen_122153.svg" alt="computer only" class="heading__icons">
+                                </div>
+                                <div class="options">
+                                    <a href="http://https://github.com/creytas/KDA_TP4" target="_blank"><img src="img/4552604-globe-internet-sphere-web_121385.svg" title="voir la page" alt="voir la page" class="heading__icons"></a>
+                                    <a href="http://https://creytas.github.io/KDA_TP4/" target="_blank"><img src="img/code-optimization_icon-icons.com_53810.svg" title="voir le code" alt="voir le code" class="heading__icons"></a>
                                 </div>
                             </div>
                         </div>
@@ -123,43 +162,75 @@
                             <div class="projects__descriptif">
                                 <h3>PAGE D'ACCUEIL KINSHASA DIGITAL</h3>
                                 <p>
-                                    projet sur la stylisation d'une page statique sur l'histoire du web
+                                    <h5><img src="img/tasks_list_checklist_icon_132920.svg" alt="details des taches a realiser" class="heading__icons">Context of the project</h5>
+                                    We had to reproduce the "HOME" and "EMPLOYMENT" pages of the site <a href="https://kinshasadigital.com/">https://kinshasadigital.com/</a>, while using all the resources provided with the model by the Designer.
+                                </p>
+                                <p>
+                                    <h5><img src="img/clock_time_icon_132960.svg" alt="durée du projet" class="heading__icons">Project duration</h5>
+                                    the faithful reproduction of the model of the KD site was carried out in 7 days
                                 </p>
                                 <div class="projects__techno">
                                     <img src="img/html_original_wordmark_logo_icon_146478.svg" alt="html 5" class="heading__icons">
                                     <img src="img/css_original_wordmark_logo_icon_146576.svg" alt="css 3" class="heading__icons">
                                     <img src="img/file_type_git_icon_130581.svg" alt="git versioning" class="heading__icons">
+                                    <img src="img/computerscreen_122153.svg" alt="computer only" class="heading__icons">
+                                </div>
+                                <div class="options">
+                                    <a href="https://creytas.github.io/KDA_FEV/" target="_blank"><img src="img/4552604-globe-internet-sphere-web_121385.svg" title="voir la page" alt="voir la page" class="heading__icons"></a>
+                                    <a href="https://github.com/creytas/KDA_FEV" target="_blank"><img src="img/code-optimization_icon-icons.com_53810.svg" title="voir le code" alt="voir le code" class="heading__icons"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="projects-card">
-                            <img src="img/infos/projet 4.png" alt="projet sur la reproduction d'une maquette de liste de contact" class="body__img-projects">
+                            <img src="img/infos/project 4.png" alt="projet sur la reproduction d'une maquette de liste de contact" class="body__img-projects">
                             <div class="projects__descriptif">
                                 <h3>CARNET D'ADRESSE</h3>
                                 <p>
-                                    projet sur la stylisation d'une page statique sur l'histoire du web
+                                    <h5><img src="img/tasks_list_checklist_icon_132920.svg" alt="details des taches a realiser" class="heading__icons">Context of the project</h5>
+                                    From a model, we had to create a web page to manage a list of contacts with the ability to create and delete contacts
+                                </p>
+                                <p>
+                                    <h5><img src="img/clock_time_icon_132960.svg" alt="durée du projet" class="heading__icons">Project duration</h5>
+                                    the realization of this project took us 2 days
                                 </p>
                                 <div class="projects__techno">
                                     <img src="img/html_original_wordmark_logo_icon_146478.svg" alt="html 5" class="heading__icons">
                                     <img src="img/css_original_wordmark_logo_icon_146576.svg" alt="css 3" class="heading__icons">
                                     <img src="img/file_type_js_official_icon_130509.svg" alt="javascript" class="heading__icons">
                                     <img src="img/file_type_git_icon_130581.svg" alt="git versioning" class="heading__icons">
+                                    <img src="img/computerscreen_122153.svg" alt="computer only" class="heading__icons">
+                                </div>
+                                <div class="options">
+                                    <a href="https://sharp-payne-5a613d.netlify.app/" target="_blank"><img src="img/4552604-globe-internet-sphere-web_121385.svg" title="voir la page" alt="voir la page" class="heading__icons"></a>
+                                    <a href="https://github.com/creytas/PhoneBook" target="_blank"><img src="img/code-optimization_icon-icons.com_53810.svg" title="voir le code" alt="voir le code" class="heading__icons"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="projects-card">
-                            <img src="img/infos/projet 4.png" alt="projet sur la reproduction d'une maquette de liste de contact" class="body__img-projects">
+                            <img src="img/infos/project 5.png" alt="projet sur la conception d'un portfolio" class="body__img-projects">
                             <div class="projects__descriptif">
                                 <h3>PORTFOLIO</h3>
                                 <p>
-                                    projet sur la conception et la realisation d'un portfolio
+                                    <h5><img src="img/tasks_list_checklist_icon_132920.svg" alt="details des taches a realiser" class="heading__icons"> Context of the project</h5>
+                                    In order to be able to sell oneself effectively, digital tools have become an essential means of presenting one's skills and opening up to opportunities. The goal of the project is to develop a responsive Portfolio website, from the creation of the models
+                                    to the development of the website.
+                                </p>
+                                <p>
+                                    <h5><img src="img/clock_time_icon_132960.svg" alt="durée du projet" class="heading__icons">Project duration</h5>
+                                    the realization of this project took us 10 days
                                 </p>
                                 <div class="projects__techno">
                                     <img src="img/html_original_wordmark_logo_icon_146478.svg" alt="html 5" class="heading__icons">
                                     <img src="img/css_original_wordmark_logo_icon_146576.svg" alt="css 3" class="heading__icons">
+                                    <img src="img/sass_original_logo_icon_146350.svg" alt="css sass" class="heading__icons">
                                     <img src="img/file_type_js_official_icon_130509.svg" alt="javascript" class="heading__icons">
                                     <img src="img/json_logo_icon_168490.svg" alt="javascript json" id="json__projects" class="heading__icons">
                                     <img src="img/file_type_git_icon_130581.svg" alt="git versioning" class="heading__icons">
+                                    <img src="img/4552605-adaptive-design-responsive-responsive-design_121386.svg" alt="responsive" class="heading__icons">
+                                </div>
+                                <div class="options">
+                                    <a href="http://" target="_blank"><img src="img/4552604-globe-internet-sphere-web_121385.svg" title="voir la page" alt="voir la page" class="heading__icons"></a>
+                                    <a href="http://" target="_blank"><img src="img/code-optimization_icon-icons.com_53810.svg" title="voir le code" alt="voir le code" class="heading__icons"></a>
                                 </div>
                             </div>
                         </div>
@@ -168,27 +239,121 @@
             </div>
             <div id='about'>
                 <h2 class="heading__title">About Me</h2>
+                <div class="heading__img">
+                    <img src="img/infos/title_about.png" alt="a web developer">
+                </div>
                 <div>
-                    <div class="heading__img"></div>
                     <div>
                         <p>
-                            Je m’appelle Randy BUHENDWA, je suis un jeune enthousiaste et passionne de developpement logiciel depuis plus d’une decade.
+                            My name is Randy BUHENDWA, I am a young enthusiast and passionate about software development for over a decade.
                         </p>
+                        <div class="heading__img">
+                            <img src="img/infos/undraw_career_progress_ivdb.svg" alt="a web developer">
+                        </div>
                         <p>
-                            J’ai fait mes premieres experiences en autodidacte avant d’aller a l’Ecole Informatique des Finances, E.I.Fi en sigle, ou j’ai obtenu un graduat en analyse et programmation informatique; ensuite a l’Institut Superieur de Programmation et Analyse pour
-                            une License en Genie Logicielle. Puis me suis lance dans une formation Simplon fournie par la Kinshasa Digital Academy, en vue de devenir un developpeur Web FullStack. Cela m’a permis de me faire un certain reseau de personnes
-                            competentes, aupres de qui j’ai appris le meilleur et ai developpe un certain nombre de competences qui me faisaient jusqu’alors defaut.
+                            I had my first experiences as a self-taught person before going to the Ecole Informatique des Finances, E.I.Fi in acronym, where I obtained a degree in computer analysis and programming; then at the Higher Institute of Programming and Analysis to a License
+                            in Software Engineering. Then I embarked on a Simplon training provided by the Kinshasa Digital Academy, in order to become a FullStack Web developer. It allowed me to make a certain network of people competent, from whom I
+                            learned the best and developed a number of skills that had been lacking in me until then.
                         </p>
+                        <div class="heading__img">
+                            <img src="img/infos/undraw_dev_productivity_umsq.svg" alt="a web developer">
+                        </div>
                         <p>
-                            Etant passionne par l’avancee tech, je fais un point d’honneur de toujour rester informe et a travailler sur des projets innovant, afin de parfaire ma connaissance dans ce domaine. C’est ainsi que dans le cadre de ma formatiom j’ai travaille sur l’analyse
-                            et la conception du logiciel desktop de gestion des agents du ministere des finances, l’application de la mutuelle CASIF-RENOVE, la reproduction de la page d’accueil du site kinshasa digital, pour ne citer que ceux-la… la qualite,
-                            le gout du travail bien fait, est prioritaire pour moi.
+                            Being passionate about advanced tech, I make a point of always staying informed and working on innovative projects, in order to perfect my knowledge in this area. This is how as part of my training I worked on the analysis and the design of the desktop
+                            software for managing agents of the Ministry of Finance, the application of the CASIF-RENOVE mutual, the reproduction of the home page of the kinshasa digital site, to name just a few ...
+                        </p>
+                        <div class="heading__img">
+                            <img src="img/infos/undraw_nakamoto_2iv6.svg" alt="a web developer">
+                        </div>
+                        <p>
+                            I have for hobbies, reading, video games, cinema. I find that every man must take a bite out of life and that he must fight for noble causes and important enough to devote his life to them, because life is short. by remaining integrated and cheerful,
+                            we increase our success rates across our businesses. In addition, I am involved in raising awareness of good practices related to digital (especially the web)
                         </p>
                     </div>
                 </div>
             </div>
             <div id='skills'>
                 <h2 class="heading__title">Skills</h2>
+                <div class="heading__img">
+                    <img src="img/infos/undraw_Updated_resume_re_q1or.svg" alt="a web developer">
+                </div>
+                <div>
+                    <p>la qualite, le gout du travail bien fait, etant prioritaire pour moi, voici les quelques projets sur lesquels j’ai eu a travailler...</p>
+                </div>
+                <div class="skills">
+                    <div class="general-skills"></div>
+                    <div class="soft-skills">
+                        <p>
+                            <h4>ADAPTABILITY</h4>
+                            <div class="heading__img">
+                                <img src="img/infos/undraw_Scrum_board_re_wk7v.svg" alt="a web developer">
+                            </div>
+                            <p>I am flexible, open to new challenges, and know how to be optimistic and resilient in the face of change thanks to my mastery of agile methodology such as SCRUM, KANBAN. </p>
+                        </p>
+                        <p>
+                            <h4>INTERPERSONAL SKILLS</h4>
+                            <div class="heading__img">
+                                <img src="img/infos/undraw_Connected_re_lmq2.svg" alt="a web developer">
+                            </div>
+                            <p> I have good contact with others, I know how to be able to communicate easily and naturally, and inspire confidence. </p>
+                        </p>
+                        <p>
+                            <h4>COMMUNICATION & COOPERATION</h4>
+                            <div class="heading__img">
+                                <img src="img/infos/undraw_Team_page_re_cffb.svg" alt="a web developer">
+                                <p>I have a strong sense of interpersonal skills, which allows me to know when to intervene in the best possible way and when to take the lead or when to just listen; this in order to achieve a common goal ... </p>
+                                <img src="img/infos/undraw_shared_goals_3d12.svg" alt="a web developer">
+                                <p>I know how to listen and transmit information or convey a message in a clear and powerful way, adapted to my audience, by adopting an adapted verbal communication ... </p>
+                                <img src="img/infos/undraw_Data_points_re_vkpq.svg" alt="a web developer">
+                                <p>I know how to be able to find and take my place in a group, while knowing how to ask and share the necessary information ... </p>
+                                <img src="img/infos/undraw_building_websites_i78t.svg" alt="a web developer">
+                                <p> This means that I can work effectively with all types of profiles by adapting easily to different personalities, codes and modes of operation, showing myself as someone reliable and trustworthy, contributing to collective
+                                    intelligence.
+                                </p>
+                            </div>
+                        </p>
+                        <p>
+                            <h4>EASE OF LEARNING</h4>
+                            <div class="heading__img">
+                                <img src="img/infos/undraw_annotation_7das.svg" alt="a web developer">
+                            </div>
+                            <p> I have the ability to proactively manage my own learning; having understood the mechanisms of learning and motivation, and having understood my own mode of operation, I know how to question this that I think I know. I know
+                                how to be sufficiently organized and confident in my own abilities to train myself effectively and maintain my employability. I know how to put my ego aside so to admit my mistakes, to recognize my weaknesses, to admit
+                                them when I don't know; and be fairly open and attentive to what others have to teach me, whatever their position, put them forward when It is well deserved, knowing how to ask for help, showing myself accessible. </p>
+                        </p>
+                        <p>
+                            <h4>CURIOSITY & CREATIVITY</h4>
+                            <div class="heading__img">
+                                <img src="img/infos/undraw_creative_thinking_b3bc.svg" alt="a web developer">
+                            </div>
+                            <p> I have an open mind, eager for learning and discoveries, which makes me able to go and find the answers to my questions myself, to explore a subject that arouses interest, to seek to know others, Generate new ideas from this
+                                curiosity, this open-mindedness, this daring and by listening to my intuition. </p>
+                        </p>
+                    </div>
+                    <div class="hard-skills">
+                        <h4>HARDSKILLS</h4>
+
+                        <div class="heading__img">
+                            <img src="img/infos/undraw_percentages_0rur.svg" alt="a web developer">
+                            <p> j’ai l'esprit ouvert, avide d'apprentissage et de découvertes, ce qui me rend capable d'aller chercher moi-même les réponses à mes questions, de creuser un sujet qui éveille l'intérêt, chercher à connaître les autres, Générer
+                                des idées nouvelles issue de cette curiosité, cet ouverture d'esprit, cet audace et en étant à l’écoute de mon intuition.</p>
+
+                        </div>
+
+                        <div class="hard-skills__front-end">
+                            <div class="projects-card"><img src="img/html_original_wordmark_logo_icon_146478.svg" alt=""></div>
+                            <div class="projects-card"><img src="img/css_original_wordmark_logo_icon_146576.svg" alt=""></div>
+                            <div class="projects-card"><img src="img/sass_original_logo_icon_146350.svg" alt=""></div>
+                            <div class="projects-card"><img src="img/file_type_js_official_icon_130509.svg" alt=""></div>
+                            <div class="projects-card"><img src="img/bootstrap_plain_logo_icon_146619.svg" alt=""></div>
+                        </div>
+                        <div class="hard-skills__back-end">
+                            <div class="projects-card"><img src="img/mysql_original_wordmark_logo_icon_146417.svg" alt=""></div>
+
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
         </section>
